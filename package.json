@@ -1,0 +1,71 @@
+{
+  "name": "radiant-lyrics-pebble",
+  "author": "meowarex",
+  "version": "1.3.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Radiant Lyrics",
+    "uuid": "79d7fe6a-b970-483a-b096-16da10af0433",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Cmd",
+      "TrackId",
+      "Title",
+      "Artist",
+      "Duration",
+      "Status",
+      "LineCount",
+      "ChunkIndex",
+      "Chunk",
+      "Playing",
+      "Position",
+      "InboxSize",
+      "PhoneTime",
+      "WatchTime",
+      "PhoneTime2",
+      "SetMode",
+      "SetTextSize",
+      "SetBgVocals",
+      "SetUpcoming",
+      "SetProgress",
+      "SetBacklight",
+      "SetAutoOpen",
+      "SetSyncOffset",
+      "SetAccent",
+      "SetStyle",
+      "SetBgColor"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "companionApp": {
+      "android": {
+        "url": "https://github.com/meowarex/rl-mobile",
+        "apps": [
+          {
+            "package": "com.meowarex.rlmobile"
+          }
+        ]
+      }
+    }
+  }
+}
